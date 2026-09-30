@@ -1,0 +1,6 @@
+{
+  "name": "University Student Suggestion System",
+  "description": "Bilingual (English/Persian) University Student Suggestion and Criticism System (دانشور پویا) with anonymous student submissions and admin evaluation dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

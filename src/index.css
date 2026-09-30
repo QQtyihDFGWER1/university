@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", system-ui, -apple-system, sans-serif;
+  --font-vazir: "Vazirmatn", system-ui, sans-serif;
+}
+
+/* Custom styles for our application */
+body {
+  background-color: #FAF9F6;
+  color: #0B1E36;
+  background-image: radial-gradient(rgba(201, 168, 124, 0.18) 1.2px, transparent 1.2px);
+  background-size: 28px 28px;
+  background-attachment: fixed;
+}
+
+/* Smooth transitions */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
